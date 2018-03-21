@@ -22,8 +22,6 @@ const requireHTTPS = (req, res, next) => {
 
 if (process.env.NODE_ENV === 'production') {app.use(requireHTTPS);}
 
-
-
 app.set('port', process.env.PORT || 3000);
 app.use(bodyParser.json());
 app.use(express.static('public'));
