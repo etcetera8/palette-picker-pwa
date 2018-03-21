@@ -200,6 +200,21 @@ const createPaletteThumbnails = async (palettes) => {
   })
 }
 
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('../service-worker.js')
+      .then(registration => {
+        //Registration was succesful
+        console.log('service worker registration successful');
+
+      })
+      .catch(err => {
+        //registration failes
+        console.log('service worker failed', err);
+
+      })
+  })
+}
 
 
 

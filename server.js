@@ -14,7 +14,7 @@ const database = require('knex')(configuration);
 // }
 
 const requireHTTPS = (req, res, next) => {
-  if (req.headers['x-forwarded-proto'] !== 'https') {
+  if (req.headers['x-forwarded-proto'] !== 'https' && environment === 'production') {
     return res.redirect('https://' + req.get('host') + req.url);
   } 
   next();
