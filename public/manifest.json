@@ -1,0 +1,9 @@
+{
+  "short_name": "palettePicker",
+  "name": "Parkers Progressive Palette Picker",
+  "background_color": "#00c",
+  "theme_color": "#00f",
+  "display": "fullscreen",
+  "icons": [],
+  "start_url": "index.html?launcher=true"
+}
