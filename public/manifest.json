@@ -4,6 +4,32 @@
   "background_color": "#00c",
   "theme_color": "#00f",
   "display": "fullscreen",
-  "icons": [],
+  "icons": [
+    {
+      "src": "/assets/paint16.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/paint24.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/paint32.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/paint128.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/paint512.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
   "start_url": "index.html?launcher=true"
 }
