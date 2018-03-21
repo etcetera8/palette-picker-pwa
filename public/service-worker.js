@@ -4,8 +4,13 @@ this.addEventListener('install', event => {
       return cache.addAll([
         '/',
         '/js/scripts.js',
+        '/js/jquery-3.3.1.slim.min.js',
         '/styles/styles.css',
-        '/index.html'
+        '/index.html',
+        '/assets/lock.png',
+        '/assets/unlock.png',
+        '/assets/trash.png',
+        '/assets/trashHover.png'
       ])
     })
   )
